@@ -15,7 +15,7 @@ public class Main {
 		 *  The Second loop j will alternate between 0 and 1, we use chart.length, which is 3, minus 1
 		 *  The Second loop will work for added items to the chart[][]
 		 *  
-		 *  We only want to the condition if j == 0, since any strings in position 1 are the value we will print
+		 *  We only want to check the condition if j == 0, since any strings in position 1 are the value we will print
 		 *  We check the character in the input string at i, if it's equal to the chart[i][j].charAt[0]..
 		 *  
 		 *  We need to only check the 0 position of the chart string because we are assuming there is only
